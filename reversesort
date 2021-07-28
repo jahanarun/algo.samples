@@ -1,0 +1,4 @@
+Reversort(L):
+  for i := 1 to length(L) - 1
+    j := position with the minimum value in L between i and length(L), inclusive
+    Reverse(L[i..j])
